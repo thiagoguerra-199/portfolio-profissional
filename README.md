@@ -36,7 +36,7 @@ Implementação local concluída. A publicação na Vercel será feita pelo auto
 
 O objetivo é apresentar minha formação e os projetos que desenvolvi enquanto estudo Engenharia de Software. O visual usa fundo escuro e detalhes em roxo, seguindo a identidade do meu GitHub. O conteúdo é direto e o layout se adapta a computadores e celulares.
 
-Os wireframes de média fidelidade estão em [desktop.svg](docs/wireframes/desktop.svg) e [mobile.svg](docs/wireframes/mobile.svg). São arquivos vetoriais editáveis que podem ser arrastados para um arquivo do Figma. Os wireframes também estão no arquivo online indicado em Links úteis. O acesso externo ao arquivo depende da configuração de compartilhamento aprovada pelo autor.
+Os wireframes de média fidelidade estão em [desktop.svg](docs/wireframes/desktop.svg) e [mobile.svg](docs/wireframes/mobile.svg). São arquivos vetoriais editáveis que podem ser arrastados para um arquivo do Figma. Os wireframes também estão no arquivo online indicado em Links úteis. O arquivo online permite visualização e comentários para quem receber o link, sem permissão de edição.
 
 ## Funcionalidades principais
 
@@ -48,7 +48,7 @@ Os wireframes de média fidelidade estão em [desktop.svg](docs/wireframes/deskt
 - Links clicáveis para e-mail, LinkedIn e GitHub.
 - Formulário com nome, e-mail e mensagem, integrado ao FormSubmit.
 - Validação de campos obrigatórios, formato do e-mail e tamanho da mensagem.
-- Mensagens de envio, erro e confirmação de encaminhamento.
+- Validação antes do envio e confirmação pelo serviço de e-mail.
 - Menu para celular, foco de teclado e suporte a movimento reduzido.
 
 O WhatsApp foi omitido conforme escolha do autor; os contatos usados são e-mail, GitHub e LinkedIn.
@@ -72,7 +72,7 @@ As únicas dependências npm são React, React DOM e Vite. Os ícones ficam no p
 
 A aplicação usa uma única página com navegação por âncoras. `App.jsx` organiza as seções, `Contact.jsx` cuida do formulário e `data.js` armazena os dados de perfil, projetos e experiências.
 
-Não há banco de dados nem servidor próprio. Ao enviar o formulário, o navegador faz uma requisição HTTPS ao FormSubmit, que encaminha a mensagem ao e-mail do autor. Esse serviço faz o papel da integração externa de envio.
+Não há banco de dados nem servidor próprio. Ao enviar o formulário, o navegador envia os campos por POST ao FormSubmit, que apresenta a confirmação e encaminha a mensagem ao e-mail do autor. Depois, o visitante retorna ao portfólio. Esse serviço faz o papel da integração externa de envio.
 
 O serviço recebe nome, e-mail e mensagem somente quando o visitante envia o formulário. Nenhuma chave privada ou senha é necessária no código. Existe um campo oculto para ajudar a filtrar envios automáticos.
 
@@ -116,7 +116,7 @@ O destinatário está em `profile.email`, dentro de `src/data.js`.
 3. Se o FormSubmit solicitar, confirme a ativação pelo link recebido.
 4. Envie uma segunda mensagem e confira o recebimento antes da apresentação.
 
-Uma resposta aceita pelo serviço não comprova, sozinha, a chegada à caixa de entrada. O recebimento real precisa ser conferido pelo dono do e-mail. Se ocorrer uma falha, os dados preenchidos permanecem no formulário e o link direto de e-mail continua disponível.
+Uma resposta aceita pelo serviço não comprova, sozinha, a chegada à caixa de entrada. O recebimento real precisa ser conferido pelo dono do e-mail. A confirmação do serviço pode exigir uma verificação antispam. O link direto de e-mail também está disponível na seção de contato.
 
 ## Deploy
 
