@@ -16,12 +16,12 @@ O Canvas solicita uma **URL de site**. O ZIP serve como cópia do código e da d
 - README adaptado ao template da disciplina.
 - Wireframes de desktop e celular preparados em SVG editável.
 
-## Etapas que precisam de confirmação externa
+## Situação das etapas externas
 
 | Etapa | O que falta |
 | --- | --- |
 | GitHub | Repositório criado em https://github.com/thiagoguerra-199/portfolio-profissional. Conferir o conteúdo enviado e a URL da Vercel após a publicação. |
-| Figma | Wireframes importados como camadas editáveis em https://www.figma.com/design/OmjjC7m9EzuSqgv9bxqpjr. O acesso externo por link aguarda aprovação do autor. |
+| Figma | Wireframes importados como camadas editáveis em https://www.figma.com/design/OmjjC7m9EzuSqgv9bxqpjr. Acesso por link liberado para visualização e comentários, sem edição, conforme autorização do autor. |
 | Formulário | Ativar o destinatário no FormSubmit, caso solicitado no primeiro uso, e confirmar o recebimento de uma mensagem real. |
 | Vercel | Publicar pelo próprio autor, conforme combinado, e inserir a URL pública no README. |
 
