@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="3550" viewBox="0 0 390 3550">
+<rect width="100%" height="100%" fill="#f5f5f5"/>
+<rect x="0" y="0" width="390" height="80" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<text x="24" y="48" font-family="Arial, sans-serif" font-size="30" fill="#303030">tg.</text>
+<text x="318" y="46" font-family="Arial, sans-serif" font-size="14" fill="#303030">Menu</text>
+<text x="24" y="130" font-family="Arial, sans-serif" font-size="14" fill="#303030">PORTFÓLIO · THIAGO GUERRA</text>
+<text x="24" y="185" font-family="Arial, sans-serif" font-size="32" fill="#303030">Aprendendo.</text>
+<text x="24" y="228" font-family="Arial, sans-serif" font-size="32" fill="#303030">Construindo.</text>
+<text x="24" y="271" font-family="Arial, sans-serif" font-size="32" fill="#303030">Evoluindo.</text>
+<rect x="24" y="310" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="329" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="348" width="239.39999999999998" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="382" width="180" height="44" rx="6" fill="#d8d8d8" stroke="#a3a3a3"/>
+<text x="39" y="410" font-family="Arial, sans-serif" font-size="14" fill="#303030">Conheça meus projetos</text>
+<rect x="24" y="465" width="342" height="220" rx="6" fill="#e8e8e8" stroke="#a3a3a3"/>
+<text x="44" y="497" font-family="Arial, sans-serif" font-size="12" fill="#303030">sobre-mim.js · painel centralizado</text>
+<rect x="44" y="530" width="302" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="44" y="549" width="302" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="44" y="568" width="302" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="44" y="587" width="302" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="44" y="606" width="302" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="44" y="625" width="302" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="44" y="644" width="211.39999999999998" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="24" y="760" font-family="Arial, sans-serif" font-size="22" fill="#303030">SOBRE MIM</text>
+<rect x="24" y="788" width="150" height="34" rx="6" fill="#dedede" stroke="#a3a3a3"/>
+<text x="36" y="810" font-family="Arial, sans-serif" font-size="13" fill="#303030">Português | English</text>
+<text x="24" y="860" font-family="Arial, sans-serif" font-size="13" fill="#303030">Engenharia de Software · PUC Minas</text>
+<rect x="24" y="892" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="911" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="930" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="949" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="968" width="239.39999999999998" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="24" y="1060" font-family="Arial, sans-serif" font-size="20" fill="#303030">PROJETOS · LINHA DO TEMPO</text>
+<rect x="24" y="1100" width="342" height="345" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<text x="40" y="1130" font-family="Arial, sans-serif" font-size="14" fill="#303030">Match Memory · Junho/2026</text>
+<rect x="40" y="1148" width="310" height="150" rx="6" fill="#dedede" stroke="#a3a3a3"/>
+<text x="52" y="1210" font-family="Arial, sans-serif" font-size="13" fill="#303030">Captura real do projeto</text>
+<rect x="40" y="1323" width="310" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="40" y="1342" width="310" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="40" y="1361" width="217.0" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="40" y="1399" font-family="Arial, sans-serif" font-size="13" fill="#303030">Tecnologias · Ver repositório</text>
+<rect x="24" y="1485" width="342" height="345" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<text x="40" y="1515" font-family="Arial, sans-serif" font-size="14" fill="#303030">CRUD de Produtos · Setembro/2026</text>
+<rect x="40" y="1533" width="310" height="150" rx="6" fill="#dedede" stroke="#a3a3a3"/>
+<text x="52" y="1595" font-family="Arial, sans-serif" font-size="13" fill="#303030">Captura real do projeto</text>
+<rect x="40" y="1708" width="310" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="40" y="1727" width="310" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="40" y="1746" width="217.0" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="40" y="1784" font-family="Arial, sans-serif" font-size="13" fill="#303030">Tecnologias · Ver repositório</text>
+<rect x="24" y="1870" width="342" height="345" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<text x="40" y="1900" font-family="Arial, sans-serif" font-size="14" fill="#303030">Catálogo React · Novembro/2026</text>
+<rect x="40" y="1918" width="310" height="150" rx="6" fill="#dedede" stroke="#a3a3a3"/>
+<text x="52" y="1980" font-family="Arial, sans-serif" font-size="13" fill="#303030">Captura real do projeto</text>
+<rect x="40" y="2093" width="310" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="40" y="2112" width="310" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="40" y="2131" width="217.0" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="40" y="2169" font-family="Arial, sans-serif" font-size="13" fill="#303030">Tecnologias · Ver repositório</text>
+<text x="24" y="2295" font-family="Arial, sans-serif" font-size="22" fill="#303030">EXPERIÊNCIAS</text>
+<text x="24" y="2340" font-family="Arial, sans-serif" font-size="14" fill="#303030">PUC Minas · Formação em andamento</text>
+<rect x="24" y="2365" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="2384" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="2403" width="239.39999999999998" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="24" y="2445" font-family="Arial, sans-serif" font-size="14" fill="#303030">Match Memory · Projeto em equipe · 2026</text>
+<rect x="24" y="2470" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="2489" width="342" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<rect x="24" y="2508" width="239.39999999999998" height="5" rx="6" fill="#cecece" stroke="#a3a3a3"/>
+<text x="24" y="2625" font-family="Arial, sans-serif" font-size="22" fill="#303030">CONTATO</text>
+<text x="24" y="2670" font-family="Arial, sans-serif" font-size="14" fill="#303030">E-mail · LinkedIn · GitHub</text>
+<text x="24" y="2705" font-family="Arial, sans-serif" font-size="14" fill="#303030">Seu nome</text>
+<rect x="24" y="2717" width="342" height="38" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<text x="24" y="2785" font-family="Arial, sans-serif" font-size="14" fill="#303030">Seu e-mail</text>
+<rect x="24" y="2797" width="342" height="38" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<text x="24" y="2865" font-family="Arial, sans-serif" font-size="14" fill="#303030">Mensagem</text>
+<rect x="24" y="2877" width="342" height="75" rx="6" fill="#fff" stroke="#a3a3a3"/>
+<rect x="24" y="2980" width="180" height="44" rx="6" fill="#d8d8d8" stroke="#a3a3a3"/>
+<text x="44" y="3008" font-family="Arial, sans-serif" font-size="14" fill="#303030">Enviar mensagem</text>
+<text x="24" y="3100" font-family="Arial, sans-serif" font-size="13" fill="#303030">Rodapé · Thiago Guerra</text>
+</svg>
