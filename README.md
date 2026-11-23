@@ -6,7 +6,7 @@ Portfólio desenvolvido para o Trabalho Prático 1 de Desenvolvimento e Integra�
 
 ## Status do projeto
 
-Implementação local concluída. A publicação na Vercel será feita pelo autor. O recebimento do formulário depende da ativação do endereço no FormSubmit. Consulte [a conferência da entrega](docs/ENTREGA.md) para verificar as etapas externas.
+Site publicado na Vercel: [portfolio-thiago-guerra.vercel.app](https://portfolio-thiago-guerra.vercel.app). O recebimento do formulário depende da ativação do endereço no FormSubmit. Consulte [a conferência da entrega](docs/ENTREGA.md) para verificar as etapas externas.
 
 ## Índice
 
@@ -25,7 +25,7 @@ Implementação local concluída. A publicação na Vercel será feita pelo auto
 
 ## Links úteis
 
-- Site publicado: **adicionar a URL fornecida pela Vercel após o deploy**.
+- [Site publicado na Vercel](https://portfolio-thiago-guerra.vercel.app)
 - [Repositório do portfólio](https://github.com/thiagoguerra-199/portfolio-profissional)
 - [Wireframes no Figma](https://www.figma.com/design/OmjjC7m9EzuSqgv9bxqpjr)
 - [Meu GitHub](https://github.com/thiagoguerra-199)
@@ -120,7 +120,7 @@ Uma resposta aceita pelo serviço não comprova, sozinha, a chegada à caixa de 
 
 ## Deploy
 
-A publicação na Vercel será feita pelo autor.
+O site está publicado em https://portfolio-thiago-guerra.vercel.app. Para reproduzir a publicação:
 
 1. Envie o conteúdo da pasta do projeto para um repositório no GitHub. Não envie `node_modules`, `.git`, `.work` ou a pasta com o ZIP.
 2. Na Vercel, importe esse repositório.
