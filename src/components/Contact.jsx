@@ -3,57 +3,25 @@ import { Github, Linkedin, Mail, MessageCircle, Send } from "./Icons";
 import { profile } from "../data";
 
 export default function Contact() {
-    const [status, setStatus] = useState("");
+    const returnedFromSubmit = new URLSearchParams(window.location.search).get("enviado") === "1";
+    const [status, setStatus] = useState(
+        returnedFromSubmit ? "Obrigado pelo contato! Sua mensagem foi encaminhada pelo formulário." : ""
+    );
     const [sending, setSending] = useState(false);
 
-    async function handleSubmit(event) {
-        event.preventDefault();
-        const form = event.currentTarget;
-        const fields = new FormData(form);
+    function handleSubmit(event) {
+        const fields = new FormData(event.currentTarget);
         const name = fields.get("name").trim();
-        const email = fields.get("email").trim();
         const message = fields.get("message").trim();
 
         if (name.length < 2 || message.length < 10) {
+            event.preventDefault();
             setStatus("Preencha seu nome e escreva uma mensagem com pelo menos 10 caracteres.");
             return;
         }
 
+        // O navegador envia os campos ao FormSubmit por POST.
         setSending(true);
-        setStatus("");
-
-        try {
-            const response = await fetch(`https://formsubmit.co/ajax/${profile.email}`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json"
-                },
-                body: JSON.stringify({
-                    name,
-                    email,
-                    message,
-                    _subject: "Contato pelo portfólio de Thiago Guerra",
-                    _template: "table",
-                    _honey: fields.get("_honey")
-                }),
-                signal: AbortSignal.timeout(20000)
-            });
-
-            const result = await response.json();
-
-            if (!response.ok || (result.success !== true && result.success !== "true")) {
-                throw new Error("Falha no envio");
-            }
-
-            // A primeira submissão pode exigir a confirmação do destinatário.
-            setStatus("Mensagem encaminhada. Obrigado pelo contato!");
-            form.reset();
-        } catch {
-            setStatus("Não foi possível enviar agora. Tente novamente em alguns instantes.");
-        } finally {
-            setSending(false);
-        }
     }
 
     return (
@@ -74,7 +42,15 @@ export default function Contact() {
                         <MessageCircle size={19} /> WhatsApp</a>}
                 </div>
             </div>
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form
+                action={`https://formsubmit.co/${profile.email}`}
+                method="POST"
+                onSubmit={handleSubmit}
+                className="contact-form"
+            >
+                <input type="hidden" name="_subject" value="Contato pelo portfólio de Thiago Guerra" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_next" value={`${window.location.origin}/?enviado=1#contato`} />
                 <label htmlFor="name">Seu nome</label>
                 <input id="name" name="name" placeholder="Como posso te chamar?" required minLength={2} maxLength={100} autoComplete="name" />
                 <label htmlFor="email">Seu e-mail</label>
@@ -84,7 +60,7 @@ export default function Contact() {
                 <input className="honeypot" type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" />
                 <button type="submit" className="button primary" disabled={sending}>{sending ? "Enviando..." : "Enviar mensagem"}<Send size={16} />
                 </button>
-                <p role="status" className="form-status">{status || "O formulário usa o FormSubmit para encaminhar a mensagem ao meu e-mail."}</p>
+                <p role="status" className="form-status">{status || "Ao enviar, você será direcionado à confirmação do formulário."}</p>
             </form>
         </section>
     );
